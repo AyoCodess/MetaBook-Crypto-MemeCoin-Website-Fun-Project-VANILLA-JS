@@ -418,8 +418,28 @@ h6 {
 	letter-spacing: 10px;
 }
 
+.hero-sol {
+	display: flex;
+}
+
+.sol {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: bold;
+}
+
+.sol > img {
+	width: 200px;
+	object-fit: contain;
+}
+
+.sol-tag {
+	width: 130px;
+	text-align: center;
+}
+
 #hero .btn-get-started {
-	font-family: "Jost", sans-serif;
 	font-weight: 500;
 	font-size: 16px;
 	letter-spacing: 1px;
@@ -427,9 +447,11 @@ h6 {
 	padding: 10px 28px 11px 28px;
 	border-radius: 50px;
 	transition: 0.5s;
-	margin: 10px 0 0 0;
+	margin: 10px 5px 0 0;
 	color: #fff;
 	background: #1c80f9;
+	min-width: 150px;
+	text-align: center;
 }
 
 #hero .btn-get-started:hover {
