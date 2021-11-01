@@ -32,6 +32,12 @@ h6 {
 	font-family: "Roboto", sans-serif;
 }
 
+.colour-bg {
+	background-image: url(../img/bg.jpeg);
+}
+.white-bg {
+	background-color: #ffffff;
+}
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
@@ -553,7 +559,8 @@ section {
 }
 
 .section-bg {
-	background-color: #f3f5fa;
+	background-color: #113fb4;
+	background-image: url(../img/bg.jpeg);
 }
 
 .section-title {
@@ -618,6 +625,10 @@ section {
 	transform: scale(1.1);
 }
 
+.cliens-bg {
+	background-color: rgba(173, 170, 170, 0.1);
+}
+
 @media (max-width: 768px) {
 	.cliens img {
 		max-width: 40%;
@@ -625,8 +636,14 @@ section {
 }
 
 /*--------------------------------------------------------------
-# About Us
+# The Innovation
 --------------------------------------------------------------*/
+.innovation {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
 .about .content h3 {
 	font-weight: 600;
 	font-size: 26px;
@@ -681,10 +698,30 @@ section {
 	color: #fff;
 	text-decoration: none;
 }
+/*--------------------------------------------------------------
+# tokenomics
+--------------------------------------------------------------*/
 
+.tokenomics {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
 /*--------------------------------------------------------------
 # Why Us
 --------------------------------------------------------------*/
+.why-us-content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.why-us-content h3 {
+	margin-bottom: 40px;
+	margin-top: -50px;
+}
+
 .why-us .content {
 	padding: 60px 100px 0 100px;
 }
