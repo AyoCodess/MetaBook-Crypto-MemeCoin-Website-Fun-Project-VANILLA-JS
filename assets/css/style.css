@@ -67,7 +67,7 @@ h6 {
 	bottom: 0;
 	z-index: 9999;
 	overflow: hidden;
-	background: #37517e;
+	background: #113fb4;
 }
 
 #preloader:before {
@@ -75,7 +75,7 @@ h6 {
 	position: fixed;
 	top: calc(50% - 30px);
 	left: calc(50% - 30px);
-	border: 6px solid #37517e;
+	border: 6px solid #113fb4;
 	border-top-color: #fff;
 	border-bottom-color: #fff;
 	border-radius: 50%;
@@ -359,7 +359,7 @@ h6 {
 .navbar-mobile a {
 	padding: 10px 20px;
 	font-size: 15px;
-	color: #37517e;
+	color: #113fb4;
 }
 
 .navbar-mobile a:hover,
@@ -370,7 +370,7 @@ h6 {
 
 .navbar-mobile .getstarted {
 	margin: 15px;
-	color: #37517e;
+	color: #113fb4;
 }
 
 .navbar-mobile .dropdown ul {
@@ -661,7 +661,7 @@ section {
 }
 
 .cliens img {
-	max-width: 45%;
+	max-width: 40%;
 	transition: all 0.4s ease-in-out;
 	display: inline-block;
 	padding: 15px 0;
@@ -679,7 +679,7 @@ section {
 
 @media (max-width: 768px) {
 	.cliens img {
-		max-width: 40%;
+		max-width: 70%;
 	}
 }
 
@@ -901,7 +901,7 @@ section {
 .skills .content h3 {
 	font-weight: 700;
 	font-size: 32px;
-	color: #37517e;
+	color: #113fb4;
 	font-family: "Poppins", sans-serif;
 }
 
@@ -938,7 +938,7 @@ section {
 	display: block;
 	font-weight: 600;
 	font-family: "Poppins", sans-serif;
-	color: #37517e;
+	color: #113fb4;
 }
 
 .skills .progress .skill .val {
@@ -993,7 +993,7 @@ section {
 }
 
 .services .icon-box h4 a {
-	color: #37517e;
+	color: #113fb4;
 	transition: ease-in-out 0.3s;
 }
 
@@ -1263,7 +1263,7 @@ section {
 	font-weight: 700;
 	margin-bottom: 5px;
 	font-size: 20px;
-	color: #37517e;
+	color: #113fb4;
 }
 
 .team .member span {
@@ -1309,7 +1309,7 @@ section {
 }
 
 .team .member .social a i {
-	color: #37517e;
+	color: #113fb4;
 	font-size: 16px;
 	margin: 0 2px;
 }
@@ -1343,6 +1343,14 @@ section {
 .community-btns a {
 	margin-top: 20px;
 }
+
+.com-bg {
+    background-image: url('/assets/img/com-bg.png');
+    background-size: cover;
+  
+   
+
+}
 .pricing .row {
 	padding-top: 40px;
 }
@@ -1360,12 +1368,12 @@ section {
 	font-weight: 500;
 	margin-bottom: 15px;
 	font-size: 20px;
-	color: #37517e;
+	color: #113fb4;
 }
 
 .pricing h4 {
 	font-size: 48px;
-	color: #37517e;
+	color: #113fb4;
 	font-weight: 400;
 	font-family: "Jost", sans-serif;
 	margin-bottom: 25px;
@@ -1527,7 +1535,7 @@ section {
 }
 
 .faq .faq-list a.collapsed {
-	color: #37517e;
+	color: #113fb4;
 	transition: 0.3s;
 }
 
@@ -1580,7 +1588,7 @@ section {
 	font-size: 22px;
 	font-weight: 600;
 	margin-bottom: 5px;
-	color: #37517e;
+	color: #113fb4;
 }
 
 .contact .info p {
@@ -1767,7 +1775,7 @@ section {
 .breadcrumbs h2 {
 	font-size: 28px;
 	font-weight: 600;
-	color: #37517e;
+	color: #113fb4;
 }
 
 .breadcrumbs ol {
@@ -1802,6 +1810,10 @@ section {
 	flex-direction: column;
 	align-items: center;
 }
+
+
+
+
 
 .copyright span {
 	color: #1c80f9;
@@ -1882,24 +1894,26 @@ section {
 	line-height: 1;
 	text-transform: uppercase;
 	font-weight: 600;
-	color: #37517e;
+	color: #113fb4;
 }
 
 #footer .footer-top .footer-contact p {
 	font-size: 14px;
 	line-height: 24px;
 	margin-bottom: 0;
-	font-family: "Jost", sans-serif;
+
 	color: #5e5e5e;
 }
 
 #footer .footer-top h4 {
-	font-size: 16px;
+	font-size: 18px;
 	font-weight: bold;
-	color: #37517e;
+	color: #1c80f9 !important;
 	position: relative;
 	padding-bottom: 12px;
 }
+
+
 
 #footer .footer-top .footer-links {
 	margin-bottom: 30px;
