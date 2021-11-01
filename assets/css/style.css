@@ -484,7 +484,7 @@ h6 {
 	margin: 10px 5px 0 0;
 	color: #fff;
 	background: #1c80f9;
-	min-width: 150px;
+	min-width: 200px;
 	text-align: center;
 }
 
@@ -572,6 +572,7 @@ h6 {
 	}
 	#hero .hero-img img {
 		width: 70%;
+        margin-top: 50px;
 	}
 }
 
@@ -768,6 +769,10 @@ section {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+}
+
+.secure-img {
+    margin: 0 -15px;
 }
 
 .why-us-content h3 {
@@ -1031,6 +1036,7 @@ section {
 	color: #1c80f9;
 	font-size: 28px;
 	font-weight: 700;
+    margin-bottom: 20px;
 }
 
 .cta p {
@@ -1066,7 +1072,7 @@ section {
 	.cta .cta-btn-container {
 		display: flex;
 		align-items: center;
-		justify-content: flex-end;
+		justify-content: center;
 	}
 }
 
@@ -1343,6 +1349,14 @@ section {
 .community-container {
 	max-width: 500px;
 	justify-content: center;
+}
+
+.com-icons {
+    margin-right: 10px;
+    font-size: 20px;
+    vertical-align: middle;
+ 
+    
 }
 
 .community-btns a {
