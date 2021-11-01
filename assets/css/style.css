@@ -198,7 +198,7 @@ h6 {
 	padding: 8px 20px;
 	margin-left: 30px;
 	border-radius: 50px;
-	color: #fff;
+	/* color: #fff; */
 	font-size: 14px;
 	border: 2px solid #1c80f9;
 	font-weight: 600;
@@ -404,10 +404,18 @@ h6 {
 	color: black;
 }
 
+.h1-word {
+	font-weight: bold;
+	letter-spacing: 5px;
+}
+
 #hero h2 {
-	color: rgba(255, 255, 255, 0.6);
+	color: #ffffff;
 	margin-bottom: 50px;
 	font-size: 24px;
+	letter-spacing: 3px;
+	font-weight: 300;
+	letter-spacing: 10px;
 }
 
 #hero .btn-get-started {
