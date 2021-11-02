@@ -1802,6 +1802,9 @@ section {
 	background: #209dd8;
 }
 
+.form-control::placeholder {
+	color: lightgray;
+}
 @-webkit-keyframes animate-loading {
 	0% {
 		transform: rotate(0deg);
