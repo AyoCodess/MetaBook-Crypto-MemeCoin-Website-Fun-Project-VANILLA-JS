@@ -373,18 +373,18 @@ h6 {
 .navbar-mobile a {
 	padding: 10px 20px;
 	font-size: 15px;
-	color: #113fb4;
+	color: #1c80f9;
 }
 
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover > a {
-	color: #1c80f9;
+	color: #a8a7a7;
 }
 
 .navbar-mobile .getstarted {
 	margin: 15px;
-	color: #113fb4;
+	color: #1c80f9;
 }
 
 .navbar-mobile .dropdown ul {
