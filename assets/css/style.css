@@ -1740,13 +1740,19 @@ section {
 }
 
 .contact .php-email-form {
-	width: 100%;
+	width: 50%;
 	border-top: 3px solid #d8dede;
 	border-bottom: 3px solid #d8dede;
 	padding: 30px;
 	/* background: #fff; */
 	box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
 	background-image: linear-gradient(315deg, #ffffff 10%, #f1ebf6 74%);
+}
+
+@media (max-width: 800px) {
+	.contact .php-email-form {
+		width: 90%;
+	}
 }
 
 .contact .php-email-form .form-group {
