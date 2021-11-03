@@ -14,7 +14,7 @@ body {
 }
 
 a {
-	color: #ffffff;
+	color: #1c80f9;
 	text-decoration: none;
 }
 
@@ -755,8 +755,7 @@ section {
 }
 
 .in-con {
-	background-color: #d9e4f5;
-	background-image: linear-gradient(315deg, #debbff 0%, #f8cfdd 74%);
+	background-image: linear-gradient(315deg, #ffffff 0%, #fbf0f4 74%);
 }
 
 .about .content h3 {
@@ -1055,8 +1054,7 @@ section {
 	background: #fff;
 	border-radius: 20px;
 
-	background-color: #d9e4f5;
-	background-image: linear-gradient(315deg, #debbff 0%, #f8cfdd 74%);
+	background-image: linear-gradient(315deg, #ffffff 0%, #fbf0f4 74%);
 }
 
 .services .icon-box-2 .icon i {
@@ -1748,8 +1746,7 @@ section {
 	padding: 30px;
 	/* background: #fff; */
 	box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
-	background-color: #d9e4f5;
-	background-image: linear-gradient(315deg, #d9e4f5 0%, #f5e3e6 74%);
+	background-image: linear-gradient(315deg, #ffffff 0%, #fbf0f4 74%);
 }
 
 .contact .php-email-form .form-group {
