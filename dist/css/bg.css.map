@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../../assets/css/bg.scss"
+    ],
+    "names": [],
+    "file": "bg.css"
+}

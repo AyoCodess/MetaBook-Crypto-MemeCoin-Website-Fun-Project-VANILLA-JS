@@ -75,6 +75,7 @@ h6 {
 .metadog-text {
 	font-size: 18px;
 }
+
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
@@ -753,6 +754,11 @@ section {
 	align-items: center;
 }
 
+.in-con {
+	background-color: #d9e4f5;
+	background-image: linear-gradient(315deg, #d9e4f5 0%, #f5e3e6 74%);
+}
+
 .about .content h3 {
 	font-weight: 600;
 	font-size: 26px;
@@ -1048,6 +1054,9 @@ section {
 	transition: all ease-in-out 0.4s;
 	background: #fff;
 	border-radius: 20px;
+
+	background-color: #d9e4f5;
+	background-image: linear-gradient(315deg, #d9e4f5 0%, #f5e3e6 74%);
 }
 
 .services .icon-box-2 .icon i {
@@ -1734,11 +1743,13 @@ section {
 
 .contact .php-email-form {
 	width: 100%;
-	border-top: 3px solid #1c80f9;
-	border-bottom: 3px solid #1c80f9;
+	border-top: 3px solid #d8dede;
+	border-bottom: 3px solid #d8dede;
 	padding: 30px;
-	background: #fff;
+	/* background: #fff; */
 	box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+	background-color: #d9e4f5;
+	background-image: linear-gradient(315deg, #d9e4f5 0%, #f5e3e6 74%);
 }
 
 .contact .php-email-form .form-group {
@@ -1977,7 +1988,7 @@ section {
 }
 
 #footer .footer-top {
-	padding: 60px 0 30px 0;
+	padding: 60px 0 10px 0;
 	background: #fff;
 }
 
