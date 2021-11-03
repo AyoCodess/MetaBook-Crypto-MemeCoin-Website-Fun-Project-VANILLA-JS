@@ -1042,6 +1042,24 @@ section {
 	border-radius: 20px;
 }
 
+.icon-box-2 {
+	box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+	padding: 50px 30px;
+	transition: all ease-in-out 0.4s;
+	background: #fff;
+	border-radius: 20px;
+}
+
+.services .icon-box-2 .icon i {
+	color: #1c80f9;
+	font-size: 36px;
+	transition: 0.3s;
+}
+
+.services .icon-box-2 .icon {
+	margin-bottom: 10px;
+}
+
 .services .icon-box .icon {
 	margin-bottom: 10px;
 }
@@ -1129,6 +1147,12 @@ section {
 		display: flex;
 		align-items: center;
 		justify-content: center;
+	}
+}
+
+@media (max-width: 690px) {
+	.cta {
+		padding: 0 0 60px 0;
 	}
 }
 
